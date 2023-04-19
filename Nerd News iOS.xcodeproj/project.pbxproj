@@ -11,6 +11,10 @@
 		E5357F0529F058870031EB34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5357F0429F058870031EB34 /* ContentView.swift */; };
 		E5357F0729F058880031EB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5357F0629F058880031EB34 /* Assets.xcassets */; };
 		E5357F0A29F058880031EB34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5357F0929F058880031EB34 /* Preview Assets.xcassets */; };
+		E5357F1129F058CD0031EB34 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5357F1029F058CD0031EB34 /* DetailView.swift */; };
+		E5357F1529F0593F0031EB34 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5357F1429F0593F0031EB34 /* NetworkManager.swift */; };
+		E5357F1729F0595C0031EB34 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5357F1629F0595C0031EB34 /* PostData.swift */; };
+		E5357F1929F059AE0031EB34 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5357F1829F059AE0031EB34 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E5357F0429F058870031EB34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5357F0629F058880031EB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5357F0929F058880031EB34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5357F1029F058CD0031EB34 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E5357F1429F0593F0031EB34 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E5357F1629F0595C0031EB34 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		E5357F1829F059AE0031EB34 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,11 @@
 		E5357EF629F058870031EB34 = {
 			isa = PBXGroup;
 			children = (
+				E5357F1329F0591A0031EB34 /* Models */,
+				E5357F1229F058E50031EB34 /* Views */,
+				E5357F1029F058CD0031EB34 /* DetailView.swift */,
+				E5357F0429F058870031EB34 /* ContentView.swift */,
+				E5357F1829F059AE0031EB34 /* WebView.swift */,
 				E5357F0129F058870031EB34 /* Nerd News iOS */,
 				E5357F0029F058870031EB34 /* Products */,
 			);
@@ -52,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				E5357F0229F058870031EB34 /* Nerd_News_iOSApp.swift */,
-				E5357F0429F058870031EB34 /* ContentView.swift */,
 				E5357F0629F058880031EB34 /* Assets.xcassets */,
 				E5357F0829F058880031EB34 /* Preview Content */,
 			);
@@ -65,6 +77,22 @@
 				E5357F0929F058880031EB34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5357F1229F058E50031EB34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5357F1329F0591A0031EB34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5357F1429F0593F0031EB34 /* NetworkManager.swift */,
+				E5357F1629F0595C0031EB34 /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5357F1729F0595C0031EB34 /* PostData.swift in Sources */,
+				E5357F1529F0593F0031EB34 /* NetworkManager.swift in Sources */,
 				E5357F0529F058870031EB34 /* ContentView.swift in Sources */,
+				E5357F1929F059AE0031EB34 /* WebView.swift in Sources */,
+				E5357F1129F058CD0031EB34 /* DetailView.swift in Sources */,
 				E5357F0329F058870031EB34 /* Nerd_News_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
