@@ -9,6 +9,9 @@ Skills developed and expanded in this project: SwiftUI, API's, SwiftUI layout, m
 ![NerdNewsiOS](https://user-images.githubusercontent.com/79613749/233328472-14ab3287-4611-420a-8ffd-d3e1f2196a8f.png)
 
 
+
+
+
 ### Download Zip File Method:
 Download zip file and extract files by double clicking in finder or right clicking and selecting extract. In XCode, go to open file and find the location of the downloaded project folder and select the .xcodeproj file.
 
