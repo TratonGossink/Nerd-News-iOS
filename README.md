@@ -4,7 +4,7 @@ Ever find yourself wondering what is happening in the world of the nerds? Then l
 
 ### About
 This app will provide the lastest updates on what might be going on in the coding world. Nerd News uses Hacker News as the resource to access topics and information pertaining to those topics. 
-Skills developed and expanded in this project: SwiftUI, API's, SwiftUI layout, multi-screen incorporation. 
+This project was part of my iOS development bootcamp course, the skills developed and expanded in this project: SwiftUI, API's, SwiftUI layout, multi-screen incorporation. 
 
 ![NerdNewsiOS](https://user-images.githubusercontent.com/79613749/233328472-14ab3287-4611-420a-8ffd-d3e1f2196a8f.png)
 
