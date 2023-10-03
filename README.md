@@ -1,7 +1,7 @@
 # Nerd News iOS
 
 ### About
-This app provides the lastest updates on what might be going on in the tech world. Nerd News uses Hacker News as the resource to access topics and information pertaining to those topics. This app was built as a part of my online iOS development bootcamp from Angela Yu on Udemy. 
+This app provides the lastest updates on what might be going on in the tech world. Nerd News uses Hacker News as the resource to access topics and information pertaining to those topics. This app was built as a part of my online iOS development bootcamp from Angela Yu on Udemy. I designed & implemented the app icon for this app. 
 This project was part of my iOS development bootcamp course, the skills developed and expanded in this project: SwiftUI, API's, SwiftUI layout, multi-screen incorporation. 
 
 ![NerdNewsiOS](https://user-images.githubusercontent.com/79613749/233328472-14ab3287-4611-420a-8ffd-d3e1f2196a8f.png)
